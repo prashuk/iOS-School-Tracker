@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A8F531B1D6D6CFE0078604A /* TeachersMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F53191D6D6CFE0078604A /* TeachersMO+CoreDataProperties.swift */; };
+		7A8F531C1D6D6CFE0078604A /* TeachersMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F531A1D6D6CFE0078604A /* TeachersMO.swift */; };
+		7A929CCF1D6DACCB0026786D /* School_Tracker1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A929CCC1D6DACCB0026786D /* School_Tracker1.xcdatamodeld */; };
+		7AC830651D6ADE7E00774043 /* StudentsMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC830631D6ADE7E00774043 /* StudentsMO+CoreDataProperties.swift */; };
+		7AC830661D6ADE7E00774043 /* StudentsMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC830641D6ADE7E00774043 /* StudentsMO.swift */; };
+		8504FD891D4B8CCB00459143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504FD881D4B8CCB00459143 /* AppDelegate.swift */; };
+		8504FD8B1D4B8CCB00459143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504FD8A1D4B8CCB00459143 /* ViewController.swift */; };
+		8504FD8E1D4B8CCB00459143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8504FD8C1D4B8CCB00459143 /* Main.storyboard */; };
+		8504FD931D4B8CCB00459143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8504FD921D4B8CCB00459143 /* Assets.xcassets */; };
+		8504FD961D4B8CCB00459143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8504FD941D4B8CCB00459143 /* LaunchScreen.storyboard */; };
+		8504FDA11D4B8CCB00459143 /* School_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504FDA01D4B8CCB00459143 /* School_TrackerTests.swift */; };
+		850FDEFB1D51D57E0066BCE4 /* selectTeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850FDEFA1D51D57E0066BCE4 /* selectTeacherTableViewCell.swift */; };
+		8561FAE31D523A7100BC37C6 /* RemoveTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561FAE21D523A7100BC37C6 /* RemoveTeacherViewController.swift */; };
+		8561FAE51D523A9100BC37C6 /* RemoveStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561FAE41D523A9100BC37C6 /* RemoveStudentViewController.swift */; };
+		8593912E1D4F522A00F83E8F /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8593912D1D4F522A00F83E8F /* SelectViewController.swift */; };
+		859391301D4F525100F83E8F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8593912F1D4F525100F83E8F /* AddViewController.swift */; };
+		859391321D4F8EB500F83E8F /* SelectTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859391311D4F8EB500F83E8F /* SelectTeachersViewController.swift */; };
+		859391341D4F8EC500F83E8F /* AddTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859391331D4F8EC500F83E8F /* AddTeachersViewController.swift */; };
+		859CDA381D50A4A500F8E2B4 /* TeacherDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CDA371D50A4A500F8E2B4 /* TeacherDetailsCell.swift */; };
+		859CDA3A1D50CCF600F8E2B4 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859CDA391D50CCF600F8E2B4 /* Students.swift */; };
+		85DAF9681D4F35A000A01451 /* schoolDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAF9671D4F35A000A01451 /* schoolDetailsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8504FD9D1D4B8CCB00459143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8504FD7D1D4B8CCB00459143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8504FD841D4B8CCB00459143;
+			remoteInfo = "School Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A8F53191D6D6CFE0078604A /* TeachersMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TeachersMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A8F531A1D6D6CFE0078604A /* TeachersMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersMO.swift; sourceTree = "<group>"; };
+		7A929CCD1D6DACCB0026786D /* School_Tracker 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "School_Tracker 2.xcdatamodel"; sourceTree = "<group>"; };
+		7A929CCE1D6DACCB0026786D /* School_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		7AC830631D6ADE7E00774043 /* StudentsMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StudentsMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AC830641D6ADE7E00774043 /* StudentsMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsMO.swift; sourceTree = "<group>"; };
+		8504FD851D4B8CCB00459143 /* School Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8504FD881D4B8CCB00459143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8504FD8A1D4B8CCB00459143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8504FD8D1D4B8CCB00459143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8504FD921D4B8CCB00459143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8504FD951D4B8CCB00459143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8504FD971D4B8CCB00459143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8504FD9C1D4B8CCB00459143 /* School TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8504FDA01D4B8CCB00459143 /* School_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_TrackerTests.swift; sourceTree = "<group>"; };
+		8504FDA21D4B8CCB00459143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850FDEFA1D51D57E0066BCE4 /* selectTeacherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectTeacherTableViewCell.swift; sourceTree = "<group>"; };
+		8561FAE21D523A7100BC37C6 /* RemoveTeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveTeacherViewController.swift; sourceTree = "<group>"; };
+		8561FAE41D523A9100BC37C6 /* RemoveStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveStudentViewController.swift; sourceTree = "<group>"; };
+		8593912D1D4F522A00F83E8F /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		8593912F1D4F525100F83E8F /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		859391311D4F8EB500F83E8F /* SelectTeachersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTeachersViewController.swift; sourceTree = "<group>"; };
+		859391331D4F8EC500F83E8F /* AddTeachersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeachersViewController.swift; sourceTree = "<group>"; };
+		859CDA371D50A4A500F8E2B4 /* TeacherDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherDetailsCell.swift; sourceTree = "<group>"; };
+		859CDA391D50CCF600F8E2B4 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		85DAF9671D4F35A000A01451 /* schoolDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schoolDetailsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8504FD821D4B8CCB00459143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8504FD991D4B8CCB00459143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A8F196A1D6724D200475F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8504FD921D4B8CCB00459143 /* Assets.xcassets */,
+				8504FD941D4B8CCB00459143 /* LaunchScreen.storyboard */,
+				8504FD971D4B8CCB00459143 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8504FD7C1D4B8CCB00459143 = {
+			isa = PBXGroup;
+			children = (
+				7A929CCC1D6DACCB0026786D /* School_Tracker1.xcdatamodeld */,
+				7A8F53191D6D6CFE0078604A /* TeachersMO+CoreDataProperties.swift */,
+				7A8F531A1D6D6CFE0078604A /* TeachersMO.swift */,
+				7AC830631D6ADE7E00774043 /* StudentsMO+CoreDataProperties.swift */,
+				7AC830641D6ADE7E00774043 /* StudentsMO.swift */,
+				8504FD871D4B8CCB00459143 /* School Tracker */,
+				8504FD9F1D4B8CCB00459143 /* School TrackerTests */,
+				8504FD861D4B8CCB00459143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8504FD861D4B8CCB00459143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8504FD851D4B8CCB00459143 /* School Tracker.app */,
+				8504FD9C1D4B8CCB00459143 /* School TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8504FD871D4B8CCB00459143 /* School Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				8504FD881D4B8CCB00459143 /* AppDelegate.swift */,
+				859CDA391D50CCF600F8E2B4 /* Students.swift */,
+				85DAF9671D4F35A000A01451 /* schoolDetailsCell.swift */,
+				850FDEFA1D51D57E0066BCE4 /* selectTeacherTableViewCell.swift */,
+				859CDA371D50A4A500F8E2B4 /* TeacherDetailsCell.swift */,
+				8504FD8A1D4B8CCB00459143 /* ViewController.swift */,
+				8593912F1D4F525100F83E8F /* AddViewController.swift */,
+				859391331D4F8EC500F83E8F /* AddTeachersViewController.swift */,
+				8593912D1D4F522A00F83E8F /* SelectViewController.swift */,
+				859391311D4F8EB500F83E8F /* SelectTeachersViewController.swift */,
+				8561FAE41D523A9100BC37C6 /* RemoveStudentViewController.swift */,
+				8561FAE21D523A7100BC37C6 /* RemoveTeacherViewController.swift */,
+				8504FD8C1D4B8CCB00459143 /* Main.storyboard */,
+				7A8F196A1D6724D200475F36 /* Supporting Files */,
+			);
+			path = "School Tracker";
+			sourceTree = "<group>";
+		};
+		8504FD9F1D4B8CCB00459143 /* School TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8504FDA01D4B8CCB00459143 /* School_TrackerTests.swift */,
+				8504FDA21D4B8CCB00459143 /* Info.plist */,
+			);
+			path = "School TrackerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8504FD841D4B8CCB00459143 /* School Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8504FDA51D4B8CCB00459143 /* Build configuration list for PBXNativeTarget "School Tracker" */;
+			buildPhases = (
+				8504FD811D4B8CCB00459143 /* Sources */,
+				8504FD821D4B8CCB00459143 /* Frameworks */,
+				8504FD831D4B8CCB00459143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "School Tracker";
+			productName = "School Tracker";
+			productReference = 8504FD851D4B8CCB00459143 /* School Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8504FD9B1D4B8CCB00459143 /* School TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8504FDA81D4B8CCB00459143 /* Build configuration list for PBXNativeTarget "School TrackerTests" */;
+			buildPhases = (
+				8504FD981D4B8CCB00459143 /* Sources */,
+				8504FD991D4B8CCB00459143 /* Frameworks */,
+				8504FD9A1D4B8CCB00459143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8504FD9E1D4B8CCB00459143 /* PBXTargetDependency */,
+			);
+			name = "School TrackerTests";
+			productName = "School TrackerTests";
+			productReference = 8504FD9C1D4B8CCB00459143 /* School TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8504FD7D1D4B8CCB00459143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cognizant iMac";
+				TargetAttributes = {
+					8504FD841D4B8CCB00459143 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LSVVD8ZPH6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+					8504FD9B1D4B8CCB00459143 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 8504FD841D4B8CCB00459143;
+					};
+				};
+			};
+			buildConfigurationList = 8504FD801D4B8CCB00459143 /* Build configuration list for PBXProject "School Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8504FD7C1D4B8CCB00459143;
+			productRefGroup = 8504FD861D4B8CCB00459143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8504FD841D4B8CCB00459143 /* School Tracker */,
+				8504FD9B1D4B8CCB00459143 /* School TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8504FD831D4B8CCB00459143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8504FD961D4B8CCB00459143 /* LaunchScreen.storyboard in Resources */,
+				8504FD931D4B8CCB00459143 /* Assets.xcassets in Resources */,
+				8504FD8E1D4B8CCB00459143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8504FD9A1D4B8CCB00459143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8504FD811D4B8CCB00459143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8504FD8B1D4B8CCB00459143 /* ViewController.swift in Sources */,
+				859391341D4F8EC500F83E8F /* AddTeachersViewController.swift in Sources */,
+				8561FAE51D523A9100BC37C6 /* RemoveStudentViewController.swift in Sources */,
+				7A8F531B1D6D6CFE0078604A /* TeachersMO+CoreDataProperties.swift in Sources */,
+				850FDEFB1D51D57E0066BCE4 /* selectTeacherTableViewCell.swift in Sources */,
+				8561FAE31D523A7100BC37C6 /* RemoveTeacherViewController.swift in Sources */,
+				7AC830661D6ADE7E00774043 /* StudentsMO.swift in Sources */,
+				7A929CCF1D6DACCB0026786D /* School_Tracker1.xcdatamodeld in Sources */,
+				7A8F531C1D6D6CFE0078604A /* TeachersMO.swift in Sources */,
+				85DAF9681D4F35A000A01451 /* schoolDetailsCell.swift in Sources */,
+				7AC830651D6ADE7E00774043 /* StudentsMO+CoreDataProperties.swift in Sources */,
+				859391301D4F525100F83E8F /* AddViewController.swift in Sources */,
+				8504FD891D4B8CCB00459143 /* AppDelegate.swift in Sources */,
+				8593912E1D4F522A00F83E8F /* SelectViewController.swift in Sources */,
+				859CDA3A1D50CCF600F8E2B4 /* Students.swift in Sources */,
+				859391321D4F8EB500F83E8F /* SelectTeachersViewController.swift in Sources */,
+				859CDA381D50A4A500F8E2B4 /* TeacherDetailsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8504FD981D4B8CCB00459143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8504FDA11D4B8CCB00459143 /* School_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8504FD9E1D4B8CCB00459143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8504FD841D4B8CCB00459143 /* School Tracker */;
+			targetProxy = 8504FD9D1D4B8CCB00459143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8504FD8C1D4B8CCB00459143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8504FD8D1D4B8CCB00459143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8504FD941D4B8CCB00459143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8504FD951D4B8CCB00459143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8504FDA31D4B8CCB00459143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8504FDA41D4B8CCB00459143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8504FDA61D4B8CCB00459143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
+				INFOPLIST_FILE = "School Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizantenterprisemobility.School-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8504FDA71D4B8CCB00459143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
+				INFOPLIST_FILE = "School Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizantenterprisemobility.School-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8504FDA91D4B8CCB00459143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "School TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizant.School-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School Tracker.app/School Tracker";
+			};
+			name = Debug;
+		};
+		8504FDAA1D4B8CCB00459143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "School TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizant.School-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School Tracker.app/School Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8504FD801D4B8CCB00459143 /* Build configuration list for PBXProject "School Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8504FDA31D4B8CCB00459143 /* Debug */,
+				8504FDA41D4B8CCB00459143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8504FDA51D4B8CCB00459143 /* Build configuration list for PBXNativeTarget "School Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8504FDA61D4B8CCB00459143 /* Debug */,
+				8504FDA71D4B8CCB00459143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8504FDA81D4B8CCB00459143 /* Build configuration list for PBXNativeTarget "School TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8504FDA91D4B8CCB00459143 /* Debug */,
+				8504FDAA1D4B8CCB00459143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A929CCC1D6DACCB0026786D /* School_Tracker1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A929CCD1D6DACCB0026786D /* School_Tracker 2.xcdatamodel */,
+				7A929CCE1D6DACCB0026786D /* School_Tracker.xcdatamodel */,
+			);
+			currentVersion = 7A929CCD1D6DACCB0026786D /* School_Tracker 2.xcdatamodel */;
+			name = School_Tracker1.xcdatamodeld;
+			path = "School Tracker/School_Tracker1.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8504FD7D1D4B8CCB00459143 /* Project object */;
+}
